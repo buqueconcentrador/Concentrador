@@ -1,0 +1,49 @@
+a, 
+h2 a 
+{
+	color: #a84d10; 
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6
+{line-height: 1.2em; font-weight: 300}
+
+#footer
+{
+	background: #474747; 
+	border-top: 9px solid #262626; 
+	color: #b1b2b2;
+}
+#footer p
+{
+	color: #b1b2b2;
+}
+
+/* .mini-sub-header h1, #slideshow p{text-shadow: 0 1px 2px #191a1b, 0 1px 0 #191a1b;} */
+
+@media all and (max-width: 767px) {
+	#site-title img
+	{
+		width:60%;
+	}
+	#site-title 
+	{
+		bottom: 0px; 
+	}
+
+}/*@media all and (max-width: 767px)*/
+
+/* Recommended by http://codex.wordpress.org/CSS */
+.aligncenter, div.aligncenter
+{margin-left: auto; margin-right: auto; display: block; text-align: center;}
+.alignleft
+{float: left;}
+.alignright
+{float: right;}
+.wp-caption
+{margin: 10px; padding-top: 4px; border: 1px solid #ddd; background-color: #f3f3f3; text-align: center;}
+.wp-caption img
+{margin: 0; padding: 0; border: 0 none;}
+.wp-caption p.wp-caption-text
+{margin: 0; padding: 0 4px 5px; font-size: 11px; line-height: 17px;}
+.hidden
+{display: none;}
